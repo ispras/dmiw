@@ -1,0 +1,15 @@
+This project contains third-party software components:
+
+- VideoSeal
+  https://github.com/facebookresearch/videoseal
+  Licensed under the MIT License.
+
+- TrustMark
+  https://github.com/adobe/trustmark
+  Licensed under the MIT License.
+
+- InvisMark
+  https://github.com/microsoft/InvisMark
+  Licensed under the MIT License.
+
+Corresponding license texts are included in the repository.

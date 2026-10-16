@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "base_url": "https://nextcloud.ispras.ru/index.php/s/zM5xXfiz3GpSytF",
+  "description": "DMIW models from the public Nextcloud share. Checkpoint SHA-256 and byte lengths are from the original Git LFS pointers; YAML hashes are from the original project files.",
+  "models": {
+    "trustmark-p": {
+      "algorithm": "trustmark",
+      "variant": "P",
+      "capacity_bits": 100,
+      "config_files": [
+        "trustmark/trustmark_P.yaml"
+      ],
+      "files": [
+        {
+          "path": "trustmark/encoder_P.ckpt",
+          "asset": "encoder_P.ckpt",
+          "size": 17301306,
+          "sha256": "659d427f72d16eea4e8fbda175ae72e3a78830dc6cf44b63642a5a4b28a2b4e2",
+          "kind": "checkpoint"
+        },
+        {
+          "path": "trustmark/decoder_P.ckpt",
+          "asset": "decoder_P.ckpt",
+          "size": 47647180,
+          "sha256": "f5f1d570c889c5908c6e4a28c07dc90cf33990ebaf24037254ebe0b8849b1bdc",
+          "kind": "checkpoint"
+        },
+        {
+          "path": "trustmark/trustmark_P.yaml",
+          "asset": "trustmark_P.yaml",
+          "size": 2009,
+          "sha256": "43f37103f92efa8bd6b1c5902bb537cc12a981dc699fca19d9bb7de8c62d03d9",
+          "kind": "config"
+        }
+      ]
+    },
+    "trustmark-q": {
+      "algorithm": "trustmark",
+      "variant": "Q",
+      "capacity_bits": 100,
+      "config_files": [
+        "trustmark/trustmark_Q.yaml"
+      ],
+      "files": [
+        {
+          "path": "trustmark/encoder_Q.ckpt",
+          "asset": "encoder_Q.ckpt",
+          "size": 17302074,
+          "sha256": "dc382c3f6b4fd568b27d6fbb763d6ffc2d2587126d84afe9d5ee95b4c5d99826",
+          "kind": "checkpoint"
+        },
+        {
+          "path": "trustmark/decoder_Q.ckpt",
+          "asset": "decoder_Q.ckpt",
+          "size": 47652460,
+          "sha256": "e3d9cea5406a26590735719f8f15cb10802b11852ae69047eaf4cf17214df781",
+          "kind": "checkpoint"
+        },
+        {
+          "path": "trustmark/trustmark_Q.yaml",
+          "asset": "trustmark_Q.yaml",
+          "size": 2009,
+          "sha256": "43f37103f92efa8bd6b1c5902bb537cc12a981dc699fca19d9bb7de8c62d03d9",
+          "kind": "config"
+        }
+      ]
+    },
+    "invismark": {
+      "algorithm": "invismark",
+      "variant": "invismark",
+      "capacity_bits": 100,
+      "config_files": [],
+      "files": [
+        {
+          "path": "invismark/invismark.ckpt",
+          "asset": "invismark.ckpt",
+          "size": 1233910734,
+          "sha256": "409f4259a88865ccc0cb75884810e6a6435a8235050333c1b04c8d539a54d9bb",
+          "kind": "checkpoint"
+        }
+      ]
+    },
+    "invismark-isp": {
+      "algorithm": "invismark",
+      "variant": "isp",
+      "capacity_bits": 100,
+      "config_files": [],
+      "files": [
+        {
+          "path": "invismark/isp_trained.ckpt",
+          "asset": "isp_trained.ckpt",
+          "size": 1233911137,
+          "sha256": "ddfb923af7c9ca24f17377bb65c3afb5ef15e27f0473439cfdd5500e9687f48b",
+          "kind": "checkpoint"
+        }
+      ]
+    },
+    "pixelseal": {
+      "algorithm": "videoseal",
+      "variant": "pixelseal",
+      "capacity_bits": 256,
+      "config_files": [
+        "videoseal/pixelseal_embedder.yaml",
+        "videoseal/pixelseal_extractor.yaml",
+        "videoseal/pixelseal_attenuation.yaml"
+      ],
+      "files": [
+        {
+          "path": "videoseal/pixelseal.pth",
+          "asset": "pixelseal.pth",
+          "size": 1237429197,
+          "sha256": "0c5665cff20eb6ce1b5aaa7d91c19dafb418bfee32d02dd3344e4ed60d9d75bd",
+          "kind": "checkpoint"
+        },
+        {
+          "path": "videoseal/pixelseal_embedder.yaml",
+          "asset": "pixelseal_embedder.yaml",
+          "size": 344,
+          "sha256": "4a7c0f8cd5228303fd433b5e31e7a290dbe6bcfd6d08a6d33669859102087a39",
+          "kind": "config"
+        },
+        {
+          "path": "videoseal/pixelseal_extractor.yaml",
+          "asset": "pixelseal_extractor.yaml",
+          "size": 278,
+          "sha256": "e773d4466567276d61f91faa95228cd2f441a9631e1703321cdf67a3bebfae22",
+          "kind": "config"
+        },
+        {
+          "path": "videoseal/pixelseal_attenuation.yaml",
+          "asset": "pixelseal_attenuation.yaml",
+          "size": 179,
+          "sha256": "3b8d415dee0f0a13b4d69ce6ffd872b42563ceaa6243c47f233a4a2a24cb6140",
+          "kind": "config"
+        }
+      ]
+    },
+    "videoseal-isp-128": {
+      "algorithm": "videoseal",
+      "variant": "isp_128",
+      "capacity_bits": 128,
+      "config_files": [
+        "videoseal/isp_trained_128_embedder.yaml",
+        "videoseal/isp_trained_128_extractor.yaml",
+        "videoseal/isp_trained_128_attenuation.yaml"
+      ],
+      "files": [
+        {
+          "path": "videoseal/isp_trained_128.pth",
+          "asset": "isp_trained_128.pth",
+          "size": 533215975,
+          "sha256": "6763c4d6e024bf5bffe659b64301fb8941c5302d2cd6de30cc3801039233ae59",
+          "kind": "checkpoint"
+        },
+        {
+          "path": "videoseal/isp_trained_128_embedder.yaml",
+          "asset": "isp_trained_128_embedder.yaml",
+          "size": 2324,
+          "sha256": "3b13bf72046f332edd3f9598bd911eda76bfda50cbceedd6fe5a67d8e14d9198",
+          "kind": "config"
+        },
+        {
+          "path": "videoseal/isp_trained_128_extractor.yaml",
+          "asset": "isp_trained_128_extractor.yaml",
+          "size": 3169,
+          "sha256": "50db08c3e70140f2add9c6681f4ed04b0034eb32e2253f71b8fcf5867585ed14",
+          "kind": "config"
+        },
+        {
+          "path": "videoseal/isp_trained_128_attenuation.yaml",
+          "asset": "isp_trained_128_attenuation.yaml",
+          "size": 179,
+          "sha256": "3b8d415dee0f0a13b4d69ce6ffd872b42563ceaa6243c47f233a4a2a24cb6140",
+          "kind": "config"
+        }
+      ]
+    }
+  }
+}
